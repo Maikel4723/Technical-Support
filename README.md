@@ -2,7 +2,7 @@
 
 A Vite + React technical-support workspace based on the Technical Support Assistance concept.
 
-## Current frontend
+## Current frontend\n\nThe repository contains no seeded customer cases, sample emails, or invented standard sentences. Add your own content through the UI.
 - Dashboard with active cases, utilities, guides and quick actions
 - Cases workspace with two editors side-by-side:
   - Case information / troubleshooting notes
