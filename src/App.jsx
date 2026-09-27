@@ -18,7 +18,9 @@ function App(){
  const saveCase=()=>{if(!activeCase)return;setCases(cs=>cs.map(c=>c.id===activeCase.id?{...c,info:caseInfo,mail}:c));setActiveCase(c=>({...c,info:caseInfo,mail}))};
  const insert=(text)=>setMail(m=>(m?m+"\n\n":"")+text);
  const addUtility=()=>{const u={id:Date.now(),cat:cats[0]||"Other",lang:language,text:""};setUtilities(x=>[u,...x]);setEditingUtil(u)};
- const saveUtility=u=>{setUtilities(x=>x.map(v=>v.id===u.id?u:v));setEditingUtil(null)}; useEffect(()=>{localStorage.setItem("ts-dark-mode",String(darkMode))},[darkMode]);\n useEffect(()=>{localStorage.setItem("ts-general-template",template)},[template]);\n const updateUtility=(id,patch)=>setUtilities(x=>x.map(u=>u.id===id?{...u,...patch}:u));
+ const saveUtility=u=>{setUtilities(x=>x.map(v=>v.id===u.id?u:v));setEditingUtil(null)}; useEffect(()=>{localStorage.setItem("ts-dark-mode",String(darkMode))},[darkMode]);
+ useEffect(()=>{localStorage.setItem("ts-general-template",template)},[template]);
+ const updateUtility=(id,patch)=>setUtilities(x=>x.map(u=>u.id===id?{...u,...patch}:u));
  return <div className={"app "+(darkMode?"dark-mode":"light-mode")}>
   <aside className={"sidebar "+(collapsed?"collapsed":"")}>
    <div className="brand"><div className="brandmark">TS</div>{!collapsed&&<div><b>Support</b><span>Workbench</span></div>}</div>
