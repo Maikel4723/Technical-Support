@@ -20,3 +20,36 @@
 .case-search{display:flex;align-items:center;gap:10px;margin:0 0 14px;padding:10px 12px;border:1px solid #d7dde5;border-radius:10px;background:#fff;color:#64748b}.case-search input{flex:1;border:0;outline:0;background:transparent;color:inherit;font:inherit}.case-search span{font-size:12px;white-space:nowrap}.app.dark-mode .case-search{background:#141a22;border-color:#26303c;color:#93a1b2}.app.dark-mode .case-search input{color:#e7edf4}
 
 .utility-search{display:flex;align-items:center;gap:10px;margin-bottom:12px;padding:10px 12px;border:1px solid #d7dde5;border-radius:10px;background:#fff;color:#64748b}.utility-search input{flex:1;border:0;outline:0;background:transparent;color:inherit;font:inherit}.utility-search span{font-size:12px;white-space:nowrap}.app.dark-mode .utility-search{background:#141a22;border-color:#26303c;color:#93a1b2}.app.dark-mode .utility-search input{color:#e7edf4}
+
+/* Professional dark-mode typography and editor clarity */
+.app.dark-mode .hero h1,.app.dark-mode .page-title h1{color:#f4f7fb;text-shadow:none}
+.app.dark-mode .hero p,.app.dark-mode .page-title p{color:#aeb9c8}
+.app.dark-mode .eyebrow{color:#8794ff}
+.app.dark-mode .crumb{color:#b9c3d1}.app.dark-mode .crumb span{color:#7f8b9d}.app.dark-mode .crumb svg{color:#596679}
+.app.dark-mode .cardhead b,.app.dark-mode .editor-head b{color:#f1f4f8}
+.app.dark-mode .cardhead span,.app.dark-mode .editor-head span{color:#9eabba}
+.app.dark-mode .case-row{background:#141a22;color:#e7edf4;border-color:#252e39}.app.dark-mode .case-row:hover{background:#1a222c}
+.app.dark-mode .case-row b,.app.dark-mode .case-select b{color:#eef2f7}.app.dark-mode .case-row small,.app.dark-mode .case-select small{color:#9aa7b7}
+.app.dark-mode .stat span{color:#a3afbe}.app.dark-mode .stat b{color:#f0f3f7}
+.app.dark-mode .quick button{color:#e7edf4}.app.dark-mode .quick b{color:#edf1f6}.app.dark-mode .quick span{color:#9ba8b7}
+.app.dark-mode .cat{color:#b7c1cf}.app.dark-mode .cat.active{background:#202943;color:#aeb8ff}.app.dark-mode .cat span{color:#7f8c9d}
+.app.dark-mode .language-tabs{background:#0d131a}.app.dark-mode .language-tabs button{color:#9ba7b6}.app.dark-mode .language-tabs .selected{background:#202936;color:#f0f3f7;box-shadow:none}
+.app.dark-mode .sentence p{color:#d6dde6}.app.dark-mode .sentence-meta span{background:#202936;color:#aeb9c7}
+.app.dark-mode .sentence textarea{background:#0d131a;color:#edf1f6;border-color:#34404f}
+.app.dark-mode .case-list{background:#141a22}.app.dark-mode .case-select{color:#dce3ec}.app.dark-mode .case-select:hover,.app.dark-mode .case-select.active{background:#20283a}
+.app.dark-mode .editor-panel{background:#141a22}.app.dark-mode .editor-head{background:#161d26;border-color:#2a3542}
+.app.dark-mode .big-editor,.app.dark-mode .mail-editor,.app.dark-mode .template-editor textarea{background:#0f151c;color:#e8edf4}
+.app.dark-mode .big-editor::placeholder,.app.dark-mode .mail-editor::placeholder,.app.dark-mode input::placeholder,.app.dark-mode textarea::placeholder{color:#718095;opacity:1}
+.app.dark-mode .formatbar{background:#111820}.app.dark-mode .formatbar button{background:#1b232e;color:#d9e0e8}.app.dark-mode .formatbar span{background:#303a47}
+.app.dark-mode .toolbar-mini button{background:#1b232e;border-color:#34404f;color:#dce3eb}.app.dark-mode .toolbar-mini button:hover{background:#222c39}
+.app.dark-mode .editor-footer{background:#111820;color:#8997a8}.app.dark-mode .editor-footer svg{color:#55c98c}
+.app.dark-mode .bottom-bar b{color:#eef2f7}.app.dark-mode .bottom-bar span{color:#8f9cac}
+.app.dark-mode .case-search input,.app.dark-mode .utility-search input{color:#edf1f6}.app.dark-mode .case-search span,.app.dark-mode .utility-search span{color:#8997a8}
+.app.dark-mode .shortcut-head{border-color:#2a3542}.app.dark-mode .shortcut-head b{color:#f0f3f7}.app.dark-mode .shortcut-head span{color:#9aa7b6}.app.dark-mode .shortcut-cats{border-color:#2a3542}.app.dark-mode .shortcut-cats button{background:#1b232d;color:#aab5c4}.app.dark-mode .shortcut-cats button.selected{background:#252d47;color:#b5beff}.app.dark-mode .shortcut{border-color:#27313d}.app.dark-mode .shortcut p{color:#d3dae4}.app.dark-mode .shortcut>span{background:#222b36;color:#aab5c4}.app.dark-mode .shortcut-footer{border-color:#2a3542;color:#8795a6}
+.app.dark-mode .empty{color:#8f9cac}
+.app.dark-mode .page-title.compact{margin-bottom:20px}
+
+/* Stronger base typography */
+.hero h1,.page-title h1{font-weight:750}.cardhead b,.editor-head b{font-weight:700}.editor-head{padding:16px 18px}.editor-head b{font-size:13px;letter-spacing:.05px}.editor-head span{line-height:1.45}
+.big-editor,.mail-editor{font-size:13px;line-height:1.7}
+@media(max-width:700px){.editor-head{padding:14px}.editor-head b{font-size:12px}}
