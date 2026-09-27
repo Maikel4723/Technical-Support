@@ -16,3 +16,5 @@
 .settings-template{width:100%;min-height:180px;resize:vertical;box-sizing:border-box;padding:12px;border:1px solid #d7dde5;border-radius:10px;font:inherit;line-height:1.55}
 .app.dark-mode .settings-template{background:#0d131a;color:#e7edf4;border-color:#2a3542}
 .sentence-main select{margin-bottom:8px;padding:6px 9px;border-radius:7px}
+
+.case-search{display:flex;align-items:center;gap:10px;margin:0 0 14px;padding:10px 12px;border:1px solid #d7dde5;border-radius:10px;background:#fff;color:#64748b}.case-search input{flex:1;border:0;outline:0;background:transparent;color:inherit;font:inherit}.case-search span{font-size:12px;white-space:nowrap}.app.dark-mode .case-search{background:#141a22;border-color:#26303c;color:#93a1b2}.app.dark-mode .case-search input{color:#e7edf4}
